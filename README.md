@@ -58,7 +58,7 @@ Figure 1 shows the AI output of detecting object in a street.
 
 ## G.   PROJECT PRESENTATION 
 
--Coming Soon
+- Coming Soon
 
 
 
