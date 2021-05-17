@@ -1,34 +1,36 @@
-# FACE MASK DETECTION USING DEEP LEARNING 
+# OBJECT DETECTION USING DEEP LEARNING 
 
 ## A. PROJECT SUMMARY
 
-**Project Title:** Face Mask Detection using Deep Learning
+**Project Title:** OBJECT DETECTION USING DEEP LEARNING
 
 **Team Members:** 
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
+- MD SHADMAN ZOHA
+- Nafish Ahammed
+- ISRAT JAHAN
+- Israt Jahan Bhuiyan
 
 
-- [ ] **Objectives:**
-- Break out the project goal into more specific objectives
-- [insert]
-- [insert]
-- [insert]
+ **Objectives:**
+- To build a system that can guess the name of an object from film or real-time footage. 
+
 
 
 ##  B. ABSTRACT 
 
-In late December 2019, a previous unidentified coronavirus, currently named as the 2019 novel coronavirus, emerged from Wuhan, China, and resulted in a formidable outbreak in many cities in China and expanded globally, including Thailand, Republic of Korea, Japan, United States, Philippines, Viet Nam, and our country (as of 2/6/2020 at least 25 countries). Covid-19 are Person-to-person transmission may occur through droplet or contact transmission and if there is a lack of stringent infection control or if no proper personal protective equipment available, it may jeopardize the first-line healthcare workers.
+Object detection is the method of detecting real-world object instances in still images or videos, such as a vehicle, bike, TV, flowers, and people. It helps us to recognize, localize, and detect different objects within an image, allowing us to have a greater understanding of the image as a whole. It is widely used in image retrieval, protection, surveillance, and a variety of other applications.
 
-The best safety measure that can be taken is enforcing the people to wear a face mask whenever they are outside to slow down the COVID-19 infection rate. Mask wearing significantly reduced the amounts of various airborne viruses coming from infected patients, measured using the breath-capturing "Gesundheit II machine" developed by Dr. Don Milton, a professor of applied environmental health and a senior author of the study published April 3 in the journal Nature Medicine. In short, masks can help prevent the spread of COVID-19 and that the more people wearing masks, the better.
+Object detection can be accomplished in a variety of ways:
 
-As for now, you as a Data Scientist or Machine Learning Engineer or Practitioner are going to use AI technology to recognize people whether they are wearing face mask or not in the public or open space.
+- Detection of Objects Using Features
+- Object Detection SVM Classifications with HOG Features by Viola Jones
+- Object Detection Using Deep Learning
 
 
-![Coding](https://miro.medium.com/max/1400/1*fyfSOSKswsmV0n7Wdy6R4Q.jpeg)
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+![Object-detection-in-a-dense-scene (1)](https://user-images.githubusercontent.com/80869517/118518648-29bb1c00-b75a-11eb-939d-8c11d7b836e9.png)
+
+
+Figure 1 shows the AI output of detecting object in a street.
 
 
 ## C.  DATASET
