@@ -35,7 +35,16 @@ Figure 1 shows the AI output of detecting object in a street.
 
 ## C.  DATASET
 
-- Coming Soon
+This project is an attempt to demonstrate about how we can use object detector to recognize any object, location of an object in any image and also count the number of instances of an object.
+For this project we are going to use COCO dataset, which represents - Common Objects in Context. The COCO dataset provides a base dataset and benchmark for evaluating the periodic improvement of the models through computer vision research. Coco has some other features which are object segmentation, recognition in context, superpixel stuff segmentation, 1.5 million object instances, 80 object categories .  
+In object detection for input an image can be taken with one or more pictures such as a picture and for output we will get one or more bounding boxes and a class label for each bounding box.
+
+
+![image](https://user-images.githubusercontent.com/80869517/122103283-44a3ad80-ce38-11eb-8e03-edd7ca140390.png)
+
+
+Figure 2 shows the proccess of dataset.
+
 
 
 ## D.   PROJECT STRUCTURE
