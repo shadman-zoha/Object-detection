@@ -69,7 +69,7 @@ $ tree --dirsfirst --filelimit 15 .
 
 
 
-## E   TRAINING THE COVID-19 FACE MASK DETECTION
+## E   TRAINING AND CONFIGURE THE OBJECT DETECTION
 
 - We can now use jupyter nootbook and Tensorflow to train our model.
 
