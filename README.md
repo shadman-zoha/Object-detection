@@ -46,6 +46,9 @@ In object detection for input an image can be taken with one or more pictures su
 Figure 2 shows the proccess of dataset.
 
 
+![Screenshot (88)](https://user-images.githubusercontent.com/80869517/122104550-97319980-ce39-11eb-9b07-6a854a034008.png)
+
+Figure 3 shows the example of dataset.
 
 ## D.   PROJECT STRUCTURE
 
