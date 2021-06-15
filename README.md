@@ -50,13 +50,20 @@ Figure 3 shows the example of dataset.
 
 
 The following directory is our structure of our project:
-- $ tree --venv
-- .
-- â”œâ”€â”€ dataset
-- â”‚   â”œâ”€â”€ coco.names
-- â”œâ”€â”€ frozen_inference_graph.pb
-
-- 5 directories, 10 files
+$ tree --dirsfirst --filelimit 15 .
+│ ├── numpy as venv
+│ └── object_detection
+├── cv2
+│ ├── cv2.VideoCapture(0)
+│ ├── fr.load_image_file("car.jpg")
+│ └── fr.load_image_file("tv.jpg")
+├── dataset
+│ ├── coco.names
+├── frozen_inference_graph.pb
+├── ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
+└── cv2.rectangle
+└── video_capture.release()
+10 files
 
 
 
