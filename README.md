@@ -51,19 +51,19 @@ Figure 3 shows the example of dataset.
 
 The following directory is our structure of our project:
 $ tree --dirsfirst --filelimit 15 .
-│ ├── numpy as venv
-│ └── object_detection
-├── cv2
-│ ├── cv2.VideoCapture(0)
-│ ├── fr.load_image_file("car.jpg")
-│ └── fr.load_image_file("tv.jpg")
-├── dataset
-│ ├── coco.names
-├── frozen_inference_graph.pb
-├── ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
-└── cv2.rectangle
-└── video_capture.release()
-10 files
+-│ ├── numpy as venv
+-│ └── object_detection
+-├── cv2
+-│ ├── cv2.VideoCapture(0)
+-│ ├── fr.load_image_file("car.jpg")
+-│ └── fr.load_image_file("tv.jpg")
+-├── dataset
+-│ ├── coco.names
+-├── frozen_inference_graph.pb
+-├── ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
+-└── cv2.rectangle
+-└── video_capture.release()
+-10 files
 
 
 
