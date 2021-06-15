@@ -71,7 +71,19 @@ $ tree --dirsfirst --filelimit 15 .
 
 ## E   TRAINING THE COVID-19 FACE MASK DETECTION
 
-- Coming Soon
+- We can now use jupyter nootbook and Tensorflow to train our model.
+
+We go to the project folder, which contains the files. The model will then be pre-processed, trained, and tested in a notebook. To begin, we must name our classes. So, using this command, we make a file and put the coco.names in it:
+
+- classNames= []
+classFile = 'coco.names.txt'
+with open(classFile,'rt') as f:
+    classNames = f.read().rstrip('\n').split('\n')
+    
+- As a result, all of our classes are now set. Now it's time to build our project. The most often used mobilenet for object detection is ssd mobilenet v3. So, to detect our object, we're utilizing ssd mobilenet v3 and frozen inference graph. We are configuring our project using this command:
+
+- configPath = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
+   weightsPath = 'frozen_inference_graph.pb'
 
 
 ## F.  RESULT AND CONCLUSION
