@@ -27,10 +27,6 @@ Object detection can be accomplished in a variety of ways:
 - Object Detection Using Deep Learning
 
 
-![Object-detection-in-a-dense-scene (1)](https://user-images.githubusercontent.com/80869517/118518648-29bb1c00-b75a-11eb-939d-8c11d7b836e9.png)
-
-
-Figure 1 shows the AI output of detecting object in a street.
 
 
 ## C.  DATASET
@@ -52,7 +48,16 @@ Figure 3 shows the example of dataset.
 
 ## D.   PROJECT STRUCTURE
 
-- Coming Soon
+
+The following directory is our structure of our project:
+- $ tree --venv
+- .
+- â”œâ”€â”€ dataset
+- â”‚   â”œâ”€â”€ coco.names
+- â”œâ”€â”€ frozen_inference_graph.pb
+
+- 5 directories, 10 files
+
 
 
 
