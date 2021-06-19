@@ -29,6 +29,10 @@ Object detection can be accomplished in a variety of ways:
 
 
 
+Figure 1 shows the of our project.
+
+
+
 ## C.  DATASET
 
 This project is an attempt to demonstrate about how we can use object detector to recognize any object, location of an object in any image and also count the number of instances of an object.
@@ -42,28 +46,29 @@ In object detection for input an image can be taken with one or more pictures su
 Figure 2 shows the proccess of dataset.
 
 
-![Screenshot (88)](https://user-images.githubusercontent.com/80869517/122104550-97319980-ce39-11eb-9b07-6a854a034008.png)
 
-Figure 3 shows the example of dataset.
 
 ## D.   PROJECT STRUCTURE
 
 
 The following directory is our structure of our project:
 $ tree --dirsfirst --filelimit 15 .
-- │ ├── numpy as venv
-- │ └── object_detection
-- ├── cv2
-- │ ├── cv2.VideoCapture(0)
-- │ ├── fr.load_image_file("car.jpg")
-- │ └── fr.load_image_file("tv.jpg")
+
+- ├── .ipynb_checkpoints
+- │ ├── Untitled-checkpoint
 - ├── dataset
 - │ ├── coco.names
 - ├── frozen_inference_graph.pb
 - ├── ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
-- └── cv2.rectangle
-- └── video_capture.release()
-- 10 files
+- │ ├── frozen_inference_graph.pb
+- │ ├── model.ckpt.data-00000-of-00001
+- │ ├── model.ckpt.index
+- │ ├── model.ckpt.meta
+- │ ├── model.tflite
+- │ └── pipeline.config
+- └── DEMO.mp4
+- └── WhatsApp Image 2021-06-19 at 10.34.24 PM.jpeg
+- 12 files
 
 
 
