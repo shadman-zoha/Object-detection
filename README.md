@@ -96,6 +96,8 @@ weightsPath = 'frozen_inference_graph.pb'
 
 - Coming Soon
 
+https://user-images.githubusercontent.com/80869517/122649391-69a56280-d14f-11eb-99c4-6cded3cc7fa3.mp4
+
 
 
 ## G.   PROJECT PRESENTATION 
