@@ -18,13 +18,12 @@
 
 ##  B. ABSTRACT 
 
-Object detection is the method of detecting real-world object instances in still images or videos, such as a vehicle, bike, TV, flowers, and people. It helps us to recognize, localize, and detect different objects within an image, allowing us to have a greater understanding of the image as a whole. It is widely used in image retrieval, protection, surveillance, and a variety of other applications.
-
+Humans can detect and identify objects present in an image. The human visual system is fast and accurate and can also perform complex tasks like identifying multiple objects and detect obstacles with little conscious thought. The availability of large sets of data, faster GPUs, and better algorithms, we can now easily train computers to detect and classify multiple objects within an image with high accuracy. We need to understand terms such as object detection, object localization, loss function for object detection and localization. Object detection is the method of detecting real-world object instances in still images or videos, such as a vehicle, bike, TV, flowers, and people. It helps us to recognize, localize, and detect different objects within an image, allowing us to have a greater understanding of the image as a whole. It is widely used in image retrieval, protection, surveillance, and a variety of other applications. Image classification involves activities such as predicting the class of one object in an image. Object localization is refers to identifying the location of one or more objects in an image and drawing an abounding box around their extent. Object detection does the work of combines these two tasks and localizes and classifies one or more objects in an image. Traditional object detection methods are built on handcrafted features and shallow trainable architectures. Their performance easily stagnates by constructing complex ensembles which combine multiple low-level image features with high-level context from object detectors and scene classifiers. With the rapid development in deep learning, more powerful tools, which are able to learn semantic, high-level, deeper features, are introduced to address the problems existing in traditional architectures.
 Object detection can be accomplished in a variety of ways:
-
 - Detection of Objects Using Features
 - Object Detection SVM Classifications with HOG Features by Viola Jones
 - Object Detection Using Deep Learning
+
 
 
 
@@ -94,7 +93,14 @@ weightsPath = 'frozen_inference_graph.pb'
 
 ## F.  RESULT AND CONCLUSION
 
-- Coming Soon
+- Detecting object in real time with TensorFlow.
+
+Object detection is a key ability for most computer and robot vision system.
+Due to its powerful learning ability and advantages in detecting any objects within seconds, deep learning based object detection has been a research hotspot in recent years. Although great progress has been observed in the last years, we are still far from achieving human-level performance, in particular in terms of open-world learning. It is a true fact that object detection has not been used much in many areas where it could be of great help. As mobile robots, and in general autonomous machines, are starting to be more widely deployed, the need of object detection systems is gaining more importance. 
+
+Finally, we need to consider that we will need object detection systems for nano-robots or for robots that will explore areas that have not been seen by humans, such as depth parts of the sea or other planets, and the detection systems will have to learn to new object classes as they are encountered. In such cases, a real-time open-world learning ability will be critical.
+
+- Output of result shown below:
 
 https://user-images.githubusercontent.com/80869517/122649391-69a56280-d14f-11eb-99c4-6cded3cc7fa3.mp4
 
