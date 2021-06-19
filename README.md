@@ -25,6 +25,7 @@ Object detection can be accomplished in a variety of ways:
 - Object Detection Using Deep Learning
 
 
+![Screenshot (102)](https://user-images.githubusercontent.com/80869517/122650576-92c8f180-d155-11eb-9c29-6117ca4065f5.png)
 
 
 
