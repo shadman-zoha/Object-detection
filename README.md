@@ -88,9 +88,10 @@ $ tree --dirsfirst --filelimit 15 .
 
 ## E.   TRAINING AND CONFIGURE THE OBJECT DETECTION
 
-- We can now use jupyter nootbook and Tensorflow to train our model.
+- We can now use jupyter nootbook to CONFIGURE our model.
 
-We go to the project folder, which contains the files. The model will then be pre-processed, trained, and tested in a notebook. To begin, we must name our classes. So, using this command, we make a file and put the coco.names in it:
+
+- In our project there is two impotatnt thing we have to set the classes and we have to configure the path. So, using this command, we make a file and put the coco.names in it:
 
 
 ![Screenshot (124)](https://user-images.githubusercontent.com/80869517/122813515-dc037780-d2f4-11eb-8592-93389aba789d.png)
@@ -98,10 +99,18 @@ We go to the project folder, which contains the files. The model will then be pr
 
 
     
-- As a result, all of our classes are now set. Now it's time to build our project. The most often used mobilenet for object detection is ssd mobilenet v3. So, to detect our object, we're utilizing ssd mobilenet v3 and frozen inference graph. We are configuring our project using this command:
+-  So, to detect our object, we're utilizing "ssd mobilenet v3" and "frozen inference graph". We are configuring our project using this command:
+
 
 
 ![Screenshot (125)](https://user-images.githubusercontent.com/80869517/122813597-ef164780-d2f4-11eb-9c5d-125a7f833cf2.png)
+
+
+
+- So for running this project. Firstly, we must navigate to the project folder, which contains all of the files. After that, we must open the Jupyter notebook. This may be accomplished using the following command:
+ $Jupyter notebook
+- Open the "Untitled.ipynb" notebook and execute all of the source code in it. The path will be configured first, and then the dataset will be loaded and preprocessed. Then, using a photo or video, we can detect any object, and we can even detect using a live feed. However, we must remember that all "src" files must be placed in the same folder as the code, and if we use any other picture or video, we must first place it in the folder before renaming the position in the code.
+
 
 
 
