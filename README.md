@@ -18,6 +18,8 @@
 
  **Objectives:**
 - To build a system that can guess the name of an object from film or real-time footage. 
+- Object detection is referring to a collection of related tasks for identifying objects in digital photographs.
+
 
 
 
