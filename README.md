@@ -108,7 +108,12 @@ $ tree --dirsfirst --filelimit 15 .
 
 
 - So for running this project. Firstly, we must navigate to the project folder, which contains all of the files. After that, we must open the Jupyter notebook. This may be accomplished using the following command:
- $Jupyter notebook
+
+
+$Jupyter notebook
+ 
+ 
+ 
 - Open the "Untitled.ipynb" notebook and execute all of the source code in it. The path will be configured first, and then the dataset will be loaded and preprocessed. Then, using a photo or video, we can detect any object, and we can even detect using a live feed. However, we must remember that all "src" files must be placed in the same folder as the code, and if we use any other picture or video, we must first place it in the folder before renaming the position in the code.
 
 
