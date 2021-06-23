@@ -153,7 +153,7 @@ https://user-images.githubusercontent.com/80869517/122649391-69a56280-d14f-11eb-
 
 - Coming Soon
 
-[![OBJECT DETECTION USING DEEP LEARNING ](https://img.youtube.com/vi/8_vx8B2Qe0g)](https://www.youtube.com/watch?v=8_vx8B2Qe0g)
+[![Screenshot (132)](https://user-images.githubusercontent.com/80869517/123113567-792eef00-d460-11eb-9306-16fd5eedfb2b.png)](https://img.youtube.com/vi/8_vx8B2Qe0g)](https://www.youtube.com/watch?v=8_vx8B2Qe0g)
 
 
 
