@@ -151,10 +151,15 @@ https://user-images.githubusercontent.com/80869517/122649391-69a56280-d14f-11eb-
 
 ## G.   PROJECT PRESENTATION 
 
-- Coming Soon
+- Using anaconda, opencv, and a Jupyter notebook, you will be able to detect objects in this project.To detect objects, we used Single-Shot Multibox Detection (SSD).
+- SSD: Single Shot Detector to meet the demand for models that can operate in real-time on embedded devices without sacrificing accuracy. SSD (Single Shot Object Detection) is a technique for detecting numerous objects in a single shot. The SSD method employs a feed-forward convolutional network that generates a fixed-size collection of bounding boxes and scores the existence of object class instances within those boxes.
+
+
 
 [![Screenshot (132)](https://user-images.githubusercontent.com/80869517/123113567-792eef00-d460-11eb-9306-16fd5eedfb2b.png)
 (https://img.youtube.com/vi/8_vx8B2Qe0g)](https://www.youtube.com/watch?v=8_vx8B2Qe0g)
+
+
 
 
 ## H. ACKNOWLEDGEMENT
