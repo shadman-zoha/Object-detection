@@ -165,5 +165,6 @@ https://user-images.githubusercontent.com/80869517/122649391-69a56280-d14f-11eb-
 ## H. ACKNOWLEDGEMENT
 
 
--[Object Detection Tutorial in TensorFlow](https://www.edureka.co/blog/tensorflow-object-detection-tutorial/)
+- [Object Detection Tutorial in TensorFlow](https://www.edureka.co/blog/tensorflow-object-detection-tutorial/)
+- [Object Detection Mobile Net SSD](https://www.computervision.zone/courses/object-detection-mobile-net-ssd/)
 
